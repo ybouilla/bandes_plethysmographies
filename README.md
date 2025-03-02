@@ -1,8 +1,18 @@
+# Scripts pour le l'étude de la respiration aux moyen de bandes de pléthysmographies.
+
+ce projet contient :
+- [les scripts permettant de calibrer les bandes de pléthysmographie pour la](excel_tool/)
+- [les scripts permettant de calculer l'angle de phase (Konno & Mead)](matlab_tools)
+
 # Calibrations de bandes_plethysmographies
 Calibrations de bandes de plethysmographies
 
 Scripts pour la calibration de bandes de pléthysmographies.
 Après acquisition des signaux; un script vba a été produit pour la segmentation de signaux respiratoires (detection de pics) pour la mesure du volume courant
+
+## Bandes de pléthysmographies
+
+![img0](img/bande_de_plethy.png)
 
 **Necessite Microsoft Excel**
 
@@ -53,3 +63,16 @@ Representation des signaux du thorax et de l'abdomen
 ### Résultats des prédictions
 
 ![img_res](img/prediction_res.jpg)
+
+## Calcul de l'angle de phase
+
+Mesure du déphasage moyen entre les sisgnaux du thorax et de l'abdomen.
+L'angle de phase est un indicateur de la qualité de la respiration.
+Plus l'angle de déphasage est grand plus la détresse respiratoire est importante.
+![img6](img/km-illustration.png)
+
+Exemple de signaux obtenus:
+
+![img7](img/km-plot1.tif)
+
+![img8](img/km-plot2.png)
