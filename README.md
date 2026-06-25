@@ -1,8 +1,15 @@
 # Scripts pour l'étude de la respiration aux moyen de bandes de pléthysmographies.
 
 ce projet contient :
-- [les scripts permettant de calibrer les bandes de pléthysmographie pour la](excel_tool/)
+- [les scripts permettant de calibrer les bandes de pléthysmographie dans le cadre de la détresse respiratoire](excel_tool/)
 - [les scripts permettant de calculer l'angle de phase (Konno & Mead)](matlab_tools)
+
+
+**Presentation de l'application**:
+
+<img src="./img/animation1_bande_plethysmo.gif" width="50%" height="50%">
+
+<img src="./img/animation2.gif" width="50%" height="50%">
 
 # 1. Calibrations de bandes_plethysmographies pour l'estimation du volume courant
 Calibrations de bandes de plethysmographies
